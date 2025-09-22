@@ -18,6 +18,7 @@ library(tidyverse)
 
 ```{r}
 data <- read.table("penguins_raw.csv", sep = "," , header = TRUE)
+summary(data)
 ```
 
 
