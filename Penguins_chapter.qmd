@@ -1,0 +1,27 @@
+---
+
+title: "Exploration données sur les manchots"
+group: "CHOULETTE Klervi, DENIS Manon, DUPORT Maureen, MOTTE Arthur, POYARD Antoine, SESIA Marion, TANGUY Céline" 
+
+bibliography: references.bib
+execute: 
+  freeze: auto
+output: 
+  html_document:
+   toc: true
+   toc_float: true
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+data <- read.table("penguins_raw.csv", sep = "," , header = TRUE)
+```
+
+
+
+
+A citation @bauer2023writing
